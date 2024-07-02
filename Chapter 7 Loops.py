@@ -73,7 +73,7 @@ table_of_number = int(input("Enter the no. of table:"))
 till_what_number = int(input("Enter till where to multiply:"))
 
 for i in range(1, (till_what_number + 1)):
-    print(table_of_number * i)
+    print(f" {table_of_number} * {i} = {table_of_number * i}")
 
 # Q.2 Write a program to greet all the person names stored in a list ‘l’ and which starts with S.
 
