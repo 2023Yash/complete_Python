@@ -44,7 +44,7 @@ specific_data_type_var = memoryview(bytes(5))	                     # memory view
 
 # This added a + b + 3 (20.23) converted it to string and added yash, a string.
 
-print(str(a + b + 3) + __name__)
+# print(str(a + b + 3) + __name__)
 
 
 """
@@ -140,6 +140,9 @@ var_name = input("Enter something:")
 print(type(var_name))
 
 # Q.4 Use comparison operator to find out whether ‘a’ given variable a is greater than ‘b’ or not.
+
+a = 20
+b = 10
 
 print(a > b)
 
