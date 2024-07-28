@@ -46,6 +46,8 @@ specific_data_type_var = memoryview(bytes(5))	                     # memory view
 
 print(str(a + b + 3) + __name__)
 
+
+"""
 #Arithmatics Operators
 
 print(a + b) # +
@@ -66,6 +68,7 @@ a < b
 a <= b
 a > b
 a >= b
+"""
 
 # Logical Operators
 
@@ -84,11 +87,7 @@ print(not(False))
 
 # How to Get Type
 
-print(type(a))
-print(type(b))
-print(type(__name__))
-print(type(no))
-print(type(no_thing))
+print(type(data_type_var))
 
 # Assign multiple values
 
