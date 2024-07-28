@@ -27,20 +27,20 @@ data_type_var = None                                     # none
 
 # Setting a specific data type
 
-specific_data_type_var = str("Hello World")	                     # string
+specific_data_type_var = str("Hello World")	                       # string
 specific_data_type_var = int(20)	                                 # integer
 specific_data_type_var = float(20.5)	                             # float
 specific_data_type_var = complex(1j)	                             # complex
 specific_data_type_var = list(("apple", "banana", "cherry"))	     # list
-specific_data_type_var = tuple(("apple", "banana", "cherry"))	 # tuple
-specific_data_type_var = range(6)	                             # range
-specific_data_type_var = dict(name="John", age=36)	             # dictionary
-specific_data_type_var = set(("apple", "banana", "cherry"))	     # set
-specific_data_type_var = frozenset(("apple", "banana", "cherry")) # frozen set
+specific_data_type_var = tuple(("apple", "banana", "cherry"))	     # tuple
+specific_data_type_var = range(6)	                                 # range
+specific_data_type_var = dict(name="John", age=36)	               # dictionary
+specific_data_type_var = set(("apple", "banana", "cherry"))	       # set
+specific_data_type_var = frozenset(("apple", "banana", "cherry"))  # frozen set
 specific_data_type_var = bool(5)	                                 # boolean
-specific_data_type_var = bytes(5)	                             # bytes
-specific_data_type_var = bytearray(5)	                         # byte array
-specific_data_type_var = memoryview(bytes(5))	                 # memory view
+specific_data_type_var = bytes(5)	                                 # bytes
+specific_data_type_var = bytearray(5)	                             # byte array
+specific_data_type_var = memoryview(bytes(5))	                     # memory view
 
 # This added a + b + 3 (20.23) converted it to string and added yash, a string.
 
