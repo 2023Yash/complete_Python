@@ -9,12 +9,38 @@ Datatypes
 
 # All types of datatype
 
-a = 14            # Integer
-b = 3.23          # Float
-__name__ = "yash" # String
-yash = True       # Booleaan (True / False)
-no = False        # Booleaan (True / False)
-no_thing = None   # None
+data_type_var = "Hello World"	                         # string
+data_type_var = 20	                                     # integer
+data_type_var = 20.5	                                 # float
+data_type_var = 1j	                                     # complex
+data_type_var = ["apple", "banana", "cherry"]	         # list
+data_type_var = ("apple", "banana", "cherry")	         # tuple
+data_type_var = range(6)	                             # range
+data_type_var = {"name" : "John", "age" : 36}	         # dictionary
+data_type_var = {"apple", "banana", "cherry"}	         # set
+data_type_var = frozenset({"apple", "banana", "cherry"}) # frozen set
+data_type_var = True	                                 # boolean
+data_type_var = b"Hello"	                             # bytes
+data_type_var = bytearray(5)	                         # byte array
+data_type_var = memoryview(bytes(5))	                 # memory view
+data_type_var = None                                     # none
+
+# Setting a specific data type
+
+specific_data_type_var = str("Hello World")	                     # string
+specific_data_type_var = int(20)	                                 # integer
+specific_data_type_var = float(20.5)	                             # float
+specific_data_type_var = complex(1j)	                             # complex
+specific_data_type_var = list(("apple", "banana", "cherry"))	     # list
+specific_data_type_var = tuple(("apple", "banana", "cherry"))	 # tuple
+specific_data_type_var = range(6)	                             # range
+specific_data_type_var = dict(name="John", age=36)	             # dictionary
+specific_data_type_var = set(("apple", "banana", "cherry"))	     # set
+specific_data_type_var = frozenset(("apple", "banana", "cherry")) # frozen set
+specific_data_type_var = bool(5)	                                 # boolean
+specific_data_type_var = bytes(5)	                             # bytes
+specific_data_type_var = bytearray(5)	                         # byte array
+specific_data_type_var = memoryview(bytes(5))	                 # memory view
 
 # This added a + b + 3 (20.23) converted it to string and added yash, a string.
 
@@ -63,6 +89,34 @@ print(type(b))
 print(type(__name__))
 print(type(no))
 print(type(no_thing))
+
+# Assign multiple values
+
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+# Global Variable
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
 
 """
 Practice
